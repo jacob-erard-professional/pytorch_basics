@@ -1,6 +1,8 @@
 import torch
 import numpy as np
 
+# Messing around with tensor basics in PyTorch
+
 x = torch.tensor([2, 2, 2])
 y = torch.tensor([2, 3, 2])
 print(x*y) # Element-wise multiplication
